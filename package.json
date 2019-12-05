@@ -1,0 +1,17 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Taylor <hello@tomtaylor.name> (http://tomtaylor.name/)",
+  "license": "ISC",
+  "dependencies": {
+    "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git",
+    "adapt-authoring-server": "git+https://github.com/adapt-security/adapt-authoring-server.git",
+    "fs-extra": "8.1.0",
+    "glob": "7.1.6"
+  }
+}
