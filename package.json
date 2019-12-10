@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "adapt-authoring-core": "git+https://github.com/adapt-security/adapt-authoring-core.git",
+    "adapt-authoring-lang": "git+https://github.com/adapt-security/adapt-authoring-lang.git",
     "adapt-authoring-server": "git+https://github.com/adapt-security/adapt-authoring-server.git",
     "fs-extra": "8.1.0",
     "glob": "7.1.6"
