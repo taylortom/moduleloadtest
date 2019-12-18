@@ -8,7 +8,8 @@ module.exports = {
     }
   },
   'adapt-authoring-lang': {
-    locale: 'en'
+    locale: 'en',
+    supportedLanguages: ['en']
   },
   'adapt-authoring-lint': {
     rules: {
