@@ -1,6 +1,7 @@
 module.exports = {
-  'sapp': {
-    local_modules_path: "/Users/tom/Projects/adapt_authoring_restructure"
+  'adapt-authoring-core': {
+    local_modules_path: "/Users/tom/Projects/adapt_authoring_restructure",
+    root_dir: process.cwd()
   },
   'adapt-authoring-jsonschemaa': {
     formatOverrides: {
