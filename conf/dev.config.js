@@ -7,6 +7,9 @@ module.exports = {
       "date": /.+/
     }
   },
+  'adapt-authoring-lang': {
+    locale: 'en'
+  },
   'adapt-authoring-lint': {
     rules: {
     // Possible Errors
