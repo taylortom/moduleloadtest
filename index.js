@@ -1,10 +1,7 @@
-const App = require('adapt-authoring-core').App;
+const { App } = require('adapt-authoring-core');
 
 async function test() {
-  App.instance;
-  const app = await App.instance.onReady();
-  console.log('done');
+  await App.instance.onReady();
 }
-
 
 test();
