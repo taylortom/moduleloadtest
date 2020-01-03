@@ -1,7 +1,10 @@
+const path = require('path');
+
 module.exports = {
   'adapt-authoring-core': {
     local_modules_path: "/Users/tom/Projects/adapt_authoring_restructure",
-    root_dir: process.cwd()
+    root_dir: process.cwd(),
+    temp_dir: path.join(process.cwd(), 'temp')
   },
   'adapt-authoring-jsonschemaa': {
     formatOverrides: {
